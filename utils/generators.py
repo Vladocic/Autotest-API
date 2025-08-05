@@ -28,6 +28,4 @@ def generate_nonexistent_project_id(ids:list[int]) -> int:
 
 
 
-def get_project_ids(response) -> list[int]:
-    return [project["id"] for project in response["_embedded"]["elements"]]
 
